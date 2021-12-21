@@ -25,3 +25,4 @@ func (f *folder) clone() inode {
 	cloneFolder.children = tempChildren
 	return cloneFolder
 }
+
